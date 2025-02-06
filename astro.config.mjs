@@ -8,7 +8,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 export default defineConfig({
   site: 'https://atippax.github.io',
-  base: isProduction ? '/a-blog' : '/',
+  base: isProduction ? '/year-review' : '/',
   prefetch: true,
   integrations: [mdx(), sitemap()],
   vite: {
